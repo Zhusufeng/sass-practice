@@ -1,0 +1,25 @@
+{
+  "name": "sass-practice",
+  "version": "1.0.0",
+  "description": "Practice with Sass 1.29",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run sass:compile && node index.js",
+    "sass:compile": "node-sass --include-path sass scss/input.scss public/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhusufeng/sass-practice"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Lisa Gee",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

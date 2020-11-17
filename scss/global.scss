@@ -1,0 +1,23 @@
+$primary-font:    Verdana, Helvetica, sans-serif;
+$primary-color: #000;
+$secondary-font: Times, serif;
+$secondary-color: #444;
+
+body {
+  font: 100% $primary-font;
+  font-size: calc(min(max(1rem, 4vw), 18px));
+  color: $primary-color;
+}
+
+h1 {
+  font-size: calc(min(max(2rem, 8vw), 26px));
+}
+
+h3 {
+  font-size: calc(min(max(1.5rem, 6vw), 22px));
+}
+
+div, header, nav, section, footer {
+  border-radius: 5px;
+  padding: 20px 10px;
+}
